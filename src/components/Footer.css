@@ -1,0 +1,39 @@
+/* Add this CSS code to your index.css */
+
+/* Styles for the footer container */
+.footer-container {
+    background-color: #333; /* Change to your preferred background color */
+    color: #fff; /* Change to your preferred text color */
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  /* Styles for the footer content */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for the social media links */
+  .social-media {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .social-media-link {
+    display: inline-block;
+    margin-right: 20px; /* Adjust margin between icons as needed */
+  }
+  
+  .social-media-icon {
+    width: 30px; /* Adjust icon size as needed */
+    height: 30px; /* Adjust icon size as needed */
+    border-radius: 25px; /* Add border-radius for rounded icons */
+  }
+  
+  /* Styles for the copyright text */
+  .copyright {
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  

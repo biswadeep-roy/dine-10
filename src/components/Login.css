@@ -1,0 +1,18 @@
+/* Login.css */
+
+/* Customize your login page styles here */
+.container {
+    max-width: 400px;
+  }
+  
+  /* Make the labels darker */
+  .form-label {
+    font-weight: bold;
+    color: #333; /* Darken the label text color */
+  }
+  
+  .forgot-password-link {
+    text-decoration: none;
+    color: #009688; /* Link color */
+  }
+  

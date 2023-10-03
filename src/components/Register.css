@@ -1,0 +1,44 @@
+/* Register.css */
+
+.register-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+  }
+  
+  .card-register {
+    border-radius: 25px;
+    width: 400px; /* Set the width to make the box wider */
+    max-width: 100%; /* Ensure the box doesn't exceed the viewport width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    text-align: center; /* Center-align the title */
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    border-radius: 25px;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  .btn-register {
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+  }
+  

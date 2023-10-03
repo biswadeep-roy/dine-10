@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #f04e4e; /* Set the light brown background color */
+}
+
+/* Navbar brand (Dine 10) */
+.navbar-brand {
+    font-size: 1.5rem; /* Increase brand text size */
+    color: black; /* Set brand text color to black */
+    font-weight: bold; /* Make the brand text bold */
+}
+
+/* Navbar links */
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Add space between navbar items */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Set the text color for navbar links */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007f6e; /* Change text color on hover */
+}
+
+/* Navbar toggler icon color */
+.navbar-toggler-icon {
+    background-color: white; /* Set toggler icon color */
+}
+
+/* Center brand vertically */
+.navbar-brand, .navbar-toggler {
+    display: flex;
+    align-items: center;
+}
+
+/* Center navbar items vertically */
+.navbar-nav {
+    align-items: center;
+}
+
+/* Remove default underline from links */
+.navbar-nav .nav-link {
+    text-decoration: none;
+}
+
+/* Active link style */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #007f6e; /* Set background color for active link */
+    border-radius: 25px; /* Add border-radius for active link */
+    padding: 5px 15px; /* Adjust padding for active link */
+}

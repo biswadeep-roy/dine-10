@@ -1,0 +1,98 @@
+/* Reservation.css */
+
+/* Header styling */
+#gtco-header {
+    background-color: #eee; /* Set background color for header to light gray */
+    background-position: center;
+  }
+  
+  h1.cursive-font {
+    color: #333; /* Dark gray text color for "Good Food is Good Mood" */
+    font-size: 3em;
+  }
+  
+  /* Reservation form styling */
+  .form-wrap {
+    background-color: rgba(0, 0, 0, 0.7); /* Keep the reservation box color */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  h3.cursive-font {
+    color: #fff; /* White text color */
+    font-size: 1.5em;
+  }
+  
+  .form-group label {
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  .form-select,
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #009688; /* Set border color for form elements */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff; /* White text color */
+  }
+  
+  .form-select option {
+    background-color: #150d0d; /* Set background color for select options */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-primary {
+    background-color: #009688; /* Set button background color */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #007f6e; /* Change button color on hover */
+  }
+  
+  /* Partner images styling */
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333; /* Dark gray text color for "Our Partners" */
+    background-color: #eee; /* Set background color for the "Our Partners" section to light gray */
+    padding: 10px; /* Add padding to the "Our Partners" section */
+    border-radius: 5px;
+  }
+  
+  .partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #eee; /* Set background color for the partners container to light gray */
+    padding: 20px; /* Add padding to the partners container */
+    border-radius: 5px;
+  }
+  
+  .partner {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+  
+  .partner img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+  }
+  
+  .partner p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333; /* Dark gray text color for partner names */
+    font-weight: bold;
+  }
