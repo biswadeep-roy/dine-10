@@ -1,6 +1,9 @@
 # dine-10
 Dine 10 - A restaurant reservation web app built with React.js, allowing users to easily make reservations for their favorite dining spots.
 
+Dine10
+![image](https://github.com/biswadeep-roy/dine-10/assets/74821633/ea286f8a-6cfa-4992-bec3-0b3714fb5b64)
+
 
 ## Technologies Used
 
